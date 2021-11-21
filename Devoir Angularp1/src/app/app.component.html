@@ -1,3 +1,13 @@
 
-<span>{{title}} app is running!</span>
+<div class="text flex-container">{{title}}
+    <div></div>
+    <mat-grid-list cols="3" rowHeight="6:1">
+        <mat-grid-tile><app-miniforfait></app-miniforfait></mat-grid-tile>
+        <mat-grid-tile><app-miniforfait2></app-miniforfait2></mat-grid-tile>
+        <mat-grid-tile><app-miniforfait3></app-miniforfait3></mat-grid-tile>
+        <mat-grid-tile><app-miniforfait4></app-miniforfait4></mat-grid-tile>
+        <mat-grid-tile><app-miniforfait5></app-miniforfait5></mat-grid-tile>
+        <mat-grid-tile><app-miniforfait6></app-miniforfait6></mat-grid-tile>
+      </mat-grid-list>      
+</div>
 <router-outlet></router-outlet>
