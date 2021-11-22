@@ -1,6 +1,6 @@
-.flex-container{
-   display:block;
-    background-color:palegreen;
+.flex-container3{
+    display:block;
+    background-color:tan;
     width: 75%;
     height: 15rem;
     margin-left: 16rem;
@@ -8,6 +8,4 @@
     padding-left: 2rem;
     padding-top: 1rem;
     display:flex;
-  }
-
- 
+}
