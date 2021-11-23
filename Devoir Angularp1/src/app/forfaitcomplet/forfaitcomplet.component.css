@@ -10,4 +10,7 @@
     display:flex;
   }
 
- 
+  .text{
+    color:blue;
+    font-size: 1rem;
+  }

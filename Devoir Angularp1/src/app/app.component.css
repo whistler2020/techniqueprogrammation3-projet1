@@ -4,7 +4,9 @@
     height: 38rem;
   }
   .text{
-    text-align: center;
+    text-align: left
+    
+    ;
     margin-top: 3;
   }
   mat-grid-tile {

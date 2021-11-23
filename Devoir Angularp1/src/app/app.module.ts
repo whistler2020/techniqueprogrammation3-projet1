@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';  
+import { MatIconModule } from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { Miniforfait6Component } from './miniforfait6/miniforfait6.component';
 import { BarreComponent } from './barre/barre.component';
 import { Forfaitcomplet2Component } from './forfaitcomplet2/forfaitcomplet2.component';
 import { Forfaitcomplet3Component } from './forfaitcomplet3/forfaitcomplet3.component';
+import { NombreEtoileComponent } from './nombre-etoile/nombre-etoile.component';
 
 @NgModule({
   declarations: [
@@ -35,14 +37,16 @@ import { Forfaitcomplet3Component } from './forfaitcomplet3/forfaitcomplet3.comp
     Miniforfait6Component,
     BarreComponent,
     Forfaitcomplet2Component,
-    Forfaitcomplet3Component
+    Forfaitcomplet3Component,
+    NombreEtoileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

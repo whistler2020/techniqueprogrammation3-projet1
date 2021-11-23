@@ -1,16 +1,11 @@
 export interface Forfait {
     destination:string,
     villeDepart:string,
-    hotel:{
-        nom:string,
-        coordonnees:string,
-        nombreEtoiles:6,
-        nombreChambre:number,
-        caracteristiques:['Face à la plage','Ascenseur','Miniclub'],
-    },
-    dateDepart:'',
-    dateRetour:'',
+    dateDepart:string,
+    dateRetour:string,
     prix:number,
-    rabais:number,
-    vedette:true
+    rabais ?:number,
+    vedette ?:true,
+    duree ?:number,
+    description ?:string
 }
